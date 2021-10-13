@@ -76,8 +76,14 @@ img {
   justify-content: space-between;
 }
 
-.stat-detail {
+.stat-num {
   font-size: 15px;
   font-weight: 700;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stat-name {
+  font-size: 15px;
+  font-weight: 400;
   color: hsla(0, 0%, 100%, 0.75);
 }
