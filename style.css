@@ -1,16 +1,16 @@
-html {
-  size: 1440px;
-}
 body {
   background-color: hsl(233, 47%, 7%);
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
   background-color: hsl(244, 38%, 16%);
-  margin: auto;
   width: 1000px;
   height: 420px;
-  border-radius: 12px;
+  border-radius: 5px;
+  margin-top: 50px;
 }
 
 .image-container {
@@ -27,27 +27,55 @@ img {
 img {
   height: 420px;
   width: 520px;
-  border-bottom-right-radius: 12px;
-  border-top-right-radius: 12px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .container-body {
   display: flex;
 }
 
-/* .attribution {
+.description {
+  margin-left: 35px;
+  margin-right: 55px;
+}
+
+.attribution {
   font-size: 11px;
   text-align: center;
+  color: white;
+  margin-top: 65px;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
-} */
+}
 
 * {
+  font-family: "inter";
+}
+
+.container-title {
+  font-size: 37px;
+  margin-top: 82px;
+  font-weight: 700;
   color: white;
 }
 
-.desc-title {
-  font-size: 30px;
-  margin-top: 82px;
+.container-desc {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 22px;
+}
+
+.stats {
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat-detail {
+  font-size: 11px;
 }
